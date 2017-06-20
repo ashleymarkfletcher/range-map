@@ -1,5 +1,5 @@
 # range-map
-inspired by the **[Map](https://processing.org/reference/map_.html)** function in **[Processing](https://processing.org/)**. This module converts a number from one range to another
+inspired by the **[Map](https://processing.org/reference/map_.html)** function in **[Processing](https://processing.org/)**. This module scales a number from one range to another
 
 ## Installation
 
@@ -12,5 +12,12 @@ $ npm install range-map
 ```js
 var rangeMap = require('setupAMX')
 
-var mapped = rangeMap(50, 0, 100, 100, 1000)
+var mapped = rangeMap(50, 0, 100, 0, 1000)
+
+//mapped == 500
 ```
+## API
+`mapped(input, inputLowest, inputHighest, outputLowest, outputHighest)`
+
+returns a number that has been rounded with `Math.round()`
+The ranges will also work with negative numbers.   
