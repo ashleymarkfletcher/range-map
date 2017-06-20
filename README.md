@@ -10,7 +10,7 @@ $ npm install range-map
 ## Example Usage
 
 ```js
-var rangeMap = require('setupAMX')
+var rangeMap = require('range-map')
 
 var mapped = rangeMap(50, 0, 100, 0, 1000)
 
