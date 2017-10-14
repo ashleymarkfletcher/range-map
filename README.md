@@ -1,6 +1,8 @@
 # range-map
 inspired by the **[Map](https://processing.org/reference/map_.html)** function in **[Processing](https://processing.org/)**. This module scales a number from one range to another
 
+[![Build Status](https://travis-ci.org/ashleymarkfletcher/range-map.svg?branch=master)](https://travis-ci.org/ashleymarkfletcher/range-map)
+
 ## Installation
 
 ```bash
