@@ -6,6 +6,15 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/vendor/**"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ashleymarkfletcher/range-map.git"
