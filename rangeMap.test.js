@@ -27,3 +27,7 @@ test("scales -15 from range 0-100 to 0 in range 0-1000 when clamped", () => {
 test("scales 800 from range 0-100 to 1000 in range 0-1000 when clamped", () => {
   expect(rangeMap(800, 0, 100, 0, 1000, true)).toBe(1000);
 });
+
+test("scales 50 from range 0-100 to 0.5 in range 0-1", () => {
+  expect(rangeMap(50, 0, 100, 0, 1)).toBe(0.5);
+});

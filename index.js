@@ -12,9 +12,8 @@ const rangeMap = (
   outHigh,
   clampValue = false
 ) => {
-  const value = Math.round(
-    ((input - inLow) / (inHigh - inLow)) * (outHigh - outLow) + outLow
-  );
+  const value =
+    ((input - inLow) / (inHigh - inLow)) * (outHigh - outLow) + outLow;
 
   return clampValue ? clamp(value, outLow, outHigh) : value;
 };
