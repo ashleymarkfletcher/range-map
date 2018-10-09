@@ -34,4 +34,4 @@ var clampMapped = rangeMap(500, 0, 100, 0, 1000, true);
 returns a number that has been rounded with `Math.round()`
 The ranges will also work with negative numbers.
 
-If `clamped` is truthy then the ranged will be clamped to the minimum and maximum output values.
+If `clamped` is truthy then output value will be clamped to the minimum and maximum output values.
